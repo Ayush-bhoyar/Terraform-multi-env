@@ -2,7 +2,6 @@ aws-Modular-infra/
 ├── main.tf               # Root config to call modules
 ├── variables.tf          # Declares all input variables
 ├── outputs.tf            # Outputs from root (e.g., subnet_ids)
-├── terraform.tfvars      # Default values (you can replace with env-specific ones)
 ├── dev.tfvars            # Environment-specific variable values
 ├── stage.tfvars
 ├── prod.tfvars
