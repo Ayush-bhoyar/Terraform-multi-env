@@ -1,0 +1,9 @@
+aws_instance_type   = "t2.micro"
+ec2_count           = 1
+ami_id              = "ami-084568db4383264d4"
+vpc_cidr            = "10.0.0.0/16"
+availbility_zones   = ["us-east-1a"]
+subnet_count        = 1
+Env                 = "stage"
+aws_s3_bucket       = "ayush-multiinfra-stage-demo-bucket"
+aws_region          = "us-east-1"
